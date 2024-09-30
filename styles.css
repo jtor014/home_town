@@ -1,0 +1,58 @@
+body{
+    display: block;
+    text-align: center;
+    margin: 0;
+    color: whitesmoke;  
+}
+
+/* Add background to hero section */
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/Melbourne\ CBD.jpg) ;
+    background-size: cover;
+    width: auto;
+    height: 300px;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+
+}
+
+#hero-title{
+    background: #1D3557;
+}
+
+#hero-text{
+    background: #457B9D;;
+}
+
+#activities-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+#activities-section{
+    background: #F1FAEE;
+    color: #1D3557;
+    
+}
+
+#activities-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+
