@@ -10,7 +10,7 @@ body{
 #hero-section{
     display: flex;
     flex-direction: column;
-    background-image: url(images/Melbourne\ CBD.jpg) ;
+    background-image: url(images/Melbourne\ CBD.jpg);
     background-size: cover;
     width: auto;
     height: 300px;
@@ -44,12 +44,12 @@ body{
     
 }
 
-#activities-container-main{
+#activities-container{
     display: flex;
     justify-content: space-around;
 }
 
-.activities-container-sub{
+.activities-item{
     width: 250px;
 }
 
@@ -59,5 +59,34 @@ body{
     border-radius: 50%;
 }
 
+.activity-title{
+    font-weight: bold;
+}
+#guide-section-container{
+    display: flex;
+    justify-content: space-around;
+    color: #1D3557;
+    width: auto;
+    background: #a8dadc;
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 40px;
+    height: 500px;
 
+}
+
+.guide-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+}
+
+#guide-img{
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+}
 
